@@ -10,7 +10,7 @@ class MainController extends Controller
     public function index()
     {
         $data = [
-            'hello' => 'Hello World!',
+            'hello' => 'Hello World! It\'s Inertia.js Test!',
         ];
         return Inertia::render('Dashboard', $data);
     }
